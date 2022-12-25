@@ -1,0 +1,12 @@
+exo 3.5
+
+a= 11025;
+f = 440;
+t = 0:1/a:1;
+for i = 1 : 18
+    s = sin(2*pi*f*t);
+    sound(s,a);
+    f = f*2^(1/6);
+    pause(1)
+    
+end
