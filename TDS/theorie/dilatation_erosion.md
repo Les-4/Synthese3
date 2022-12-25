@@ -32,21 +32,21 @@ L'avant dernière ligne est : (1 1 0 0 0 0 0)
 
 $$
 \left(\begin{array}{cc}
-*1*&1\\
+1&1\\
 1&1&0&0&0&0&0\\
 \end{array}\right)
 $$
 
 comme on à au moins 1 sur la ligne le premier point reste 1
 
--   Placons le point centrale de l'élément structurant Pour le deuxieme point de
-    la ligne on aura
-    $$
-    \left(\begin{array}{cc}
-    1&*1*&1\\
-    1&1&0&0&0&0&0\\
-    \end{array}\right)
-    $$
+-   Placons le point centrale de l'élément structurant Pour le deuxieme point de la ligne on aura
+
+$$
+\left(\begin{array}{cc}
+1&1&1\\
+1&1&0&0&0&0&0\\
+\end{array}\right)
+$$
 
 Comme on a (1 1 0) on a un élément qui est à 1 donc le second point devient 1 et
 la ligne devient
@@ -58,12 +58,13 @@ $$
 $$
 
 -   Pour le troisième point de la ligne on aura
-    $$
-    \left(\begin{array}{cc}
-    &1&*1*&1\\
-    1&1&0&0&0&0&0\\
-    \end{array}\right)
-    $$
+
+$$
+\left(\begin{array}{cc}
+&1&1&1\\
+1&1&0&0&0&0&0\\
+\end{array}\right)
+$$
 
 Comme on a (1 0 0) on a un élément à 1 donc le troisième point devient 1 et la
 ligne devient
@@ -75,12 +76,13 @@ $$
 $$
 
 -   Pour le quatrième point de la ligne on aura
-    $$
-    \left(\begin{array}{cc}
-    &&1&*1*&1\\
-    1&1&0&0&0&0&0\\
-    \end{array}\right)
-    $$
+
+$$
+\left(\begin{array}{cc}
+&&1&1&1\\
+1&1&0&0&0&0&0\\
+\end{array}\right)
+$$
 
 comme on a (0 0 0) on a aucun élément à 1 donc le quatrième point de la ligne
 restera à 0 et ainsi de suite la ligne sera
@@ -112,9 +114,10 @@ Reprenons notre exemple précédent, au lieu de remplacer par des 1 lorsqu'on 1,
 **Ex** : Notre avant dernière ligne sera :
 
 - pour le premier point
+
 $$
 \left(\begin{array}{cc}
-*1*&1\\
+1&1\\
 1&1&0&0&0&0&0\\
 \end{array}\right)
 $$
@@ -123,12 +126,13 @@ $$
 
 $$
 \left(\begin{array}{cc}
-1&*1*&1\\
+1&1&1\\
 1&1&0&0&0&0&0\\
 \end{array}\right)
 $$
 
 La ligne devient :
+
 $$
 \left(\begin{array}{cc}
 1&0&0&0&0&0&0\\
@@ -136,14 +140,16 @@ $$
 $$
 
 - pour le troisième point
+
 $$
 \left(\begin{array}{cc}
-&1&*1*&1\\
+&1&1&1\\
 1&1&0&0&0&0&0\\
 \end{array}\right)
 $$
 
 la ligne devient
+
 $$
 \left(\begin{array}{cc}
 1&0&0&0&0&0&0\\
