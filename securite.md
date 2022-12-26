@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sécurité
+title: Securite
 nav_order: 2
 has_children: true
 ---

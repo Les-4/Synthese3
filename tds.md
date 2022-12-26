@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Traitement de signaux
+title: TDS
 nav_order: 2
 has_children: true
 ---
@@ -12,3 +12,7 @@ Cette section regroupe les synthèses concernant traitement de signaux
 ### Dilation et Erosion
 
 -   [Dilation et erosion](TDS/theorie/dilatation_erosion.md)
+
+### Labelisation
+
+-   [labelisation](TDS/theorie/labelisation.md)

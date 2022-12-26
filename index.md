@@ -10,21 +10,18 @@ Synthèse des cours du Bloc3.
 
 Les informations sont organisées par catégorie :
 
-### [Traitement de signaux](tds.md)
+### [Traitement de signaux](/tds.md)
 
-### [Administration Système](admin.md)
+### [Administration Système](/admin.md)
 
+### [Sécurité](/securite.md)
 
-## [Sécurité](securite.md)
+### [Gestion de données](/gestion_donnees.md)
 
-## Gestion de données
+### Gestion de projet
 
--   [Théorie](Gestion_donnees/theorie.md)
+### Droit
 
-## Gestion de projet
-
-## Droit
-
-## Communication
+### Communication
 
 ### Déontologie

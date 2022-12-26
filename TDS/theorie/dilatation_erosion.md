@@ -1,13 +1,13 @@
 ---
+layout: default
 title: Dilation et Erosion
-customjs:
-    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+parent: TDS
 ---
 
 <!-- dilatation_erosion.html -->
   <head>
     <meta charset="utf-8">
-   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+   <script type="text/javascript" src="{{site.cdnjs}}"></script> 
   </head>
 
 ## Dilatation
