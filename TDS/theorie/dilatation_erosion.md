@@ -1,3 +1,15 @@
+---
+title: Dilation et Erosion
+customjs:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+---
+
+<!-- dilatation_erosion.html -->
+  <head>
+    <meta charset="utf-8">
+   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+  </head>
+
 ## Dilatation
 
 Soit un élément structurant (1,1,1)
@@ -39,7 +51,8 @@ $$
 
 comme on à au moins 1 sur la ligne le premier point reste 1
 
--   Placons le point centrale de l'élément structurant Pour le deuxieme point de la ligne on aura
+-   Placons le point centrale de l'élément structurant Pour le deuxieme point de
+    la ligne on aura
 
 $$
 \left(\begin{array}{cc}
@@ -106,14 +119,15 @@ $$
 \end{array}\right)
 $$
 
-
 ## Erosion
 
-Reprenons notre exemple précédent, au lieu de remplacer par des 1 lorsqu'on 1, on remplace par 0 lorsqu'on à au moins un 0 superposé à notre élément structurant sur la ligne
+Reprenons notre exemple précédent, au lieu de remplacer par des 1 lorsqu'on 1,
+on remplace par 0 lorsqu'on à au moins un 0 superposé à notre élément
+structurant sur la ligne
 
 **Ex** : Notre avant dernière ligne sera :
 
-- pour le premier point
+-   pour le premier point
 
 $$
 \left(\begin{array}{cc}
@@ -122,7 +136,7 @@ $$
 \end{array}\right)
 $$
 
-- pour le second point
+-   pour le second point
 
 $$
 \left(\begin{array}{cc}
@@ -139,7 +153,7 @@ $$
 \end{array}\right)
 $$
 
-- pour le troisième point
+-   pour le troisième point
 
 $$
 \left(\begin{array}{cc}
@@ -156,7 +170,7 @@ $$
 \end{array}\right)
 $$
 
-Et ainsi de suite on aura notre matrice finale qui sera 
+Et ainsi de suite on aura notre matrice finale qui sera
 
 $$
 \left(\begin{array}{cc}

@@ -1,3 +1,14 @@
+---
+title: Labelisation
+customjs:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+---
+
+<!-- dilatation_erosion.html -->
+  <head>
+    <meta charset="utf-8">
+   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+  </head>
 ## Labelisation
 
 Elle consiste à indentifier les objets correlé et les numéroter

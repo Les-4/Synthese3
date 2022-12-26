@@ -1,0 +1,6 @@
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+customjs:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+include:
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
